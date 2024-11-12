@@ -9,18 +9,14 @@ const styles = StyleSheet.create({
         marginTop: 50,
         padding: 10
     },
-    Child: {
-        backgroundColor: 'white',
-        borderColor: 'blue',
-        borderWidth: 1,
-        marginTop: 10,
-        marginBottom: 10,
-        alignItems: 'center'
+    TitleBox: {
+        flexDirection:'row',
+        alignSelf:'center',
+        backgroundColor: 'gray',
+        marginBottom: 10
     },
-    Image: {
-        marginTop: 10,
-        width: 300,
-        height: 200,
+    Book: {
+        alignSelf:'center',
     },
     Title: {
         color:'green',
@@ -30,15 +26,19 @@ const styles = StyleSheet.create({
         paddingRight: 5,
         flex: 1,
         textAlign: "center",
-        textAlignVertical: "center"
+        textAlignVertical: "center",
     },
-    TitleBox: {
-        flexDirection:'row',
-        alignSelf:'center',
-        backgroundColor: 'gray',
+    Child: {
+        backgroundColor: 'white',
+        borderColor: 'blue',
+        borderWidth: 1,
+        marginBottom: 10,
+        alignItems: 'center'
     },
-    Book: {
-        alignSelf:'center',
+    Image: {
+        marginTop: 10,
+        width: 300,
+        height: 200,
     },
     Question: {
         backgroundColor:'black',
